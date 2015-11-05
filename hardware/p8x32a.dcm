@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP P8X32A
+D P8X32A Propeller DIL 40 Package
+K Propeller DIL40 P8X32A
+$ENDCMP
+#
+$CMP P8X32A_QFN
+D P8X32A Propeller QFN 44 Package
+K Propeller QFN44 P8X32A
+$ENDCMP
+#
+#End Doc Library

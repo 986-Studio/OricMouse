@@ -6,3 +6,7 @@
 hardware/Gerbers
 *.bck
 ._*
+*.csv
+.DS_Store
+*.dsn
+*.ses

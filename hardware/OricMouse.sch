@@ -970,7 +970,7 @@ Connection ~ 6550 3600
 Wire Wire Line
 	7000 3900 7000 3950
 Wire Wire Line
-	7000 5550 7250 5550
+	7000 5550 7500 5550
 Wire Wire Line
 	1250 3350 1250 3200
 Wire Wire Line
@@ -1661,4 +1661,24 @@ Text Label 8150 4750 0    60   ~ 0
 mRW
 Text Label 8150 5050 0    60   ~ 0
 mPhi2
+$Comp
+L R R14
+U 1 1 564125B0
+P 7700 5400
+F 0 "R14" V 7600 5400 50  0000 C CNN
+F 1 "10K" V 7700 5400 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 7630 5400 30  0001 C CNN
+F 3 "" H 7700 5400 30  0000 C CNN
+	1    7700 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 5550 7500 5400
+Wire Wire Line
+	7500 5400 7550 5400
+Wire Wire Line
+	7850 5400 8050 5400
+Wire Wire Line
+	8050 5400 8050 5300
+Connection ~ 8050 5300
 $EndSCHEMATC
